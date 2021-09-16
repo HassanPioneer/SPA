@@ -1,0 +1,31 @@
+.container{
+  display: flex;
+  margin-top: 2em;
+}
+.card-container{
+  margin-right: 50px;
+}
+h5{
+  text-decoration: underline;
+}
+.card-body{
+  width: 400px;
+}
+.card-text{
+  padding: 20px;
+}
+.card-text{
+  padding: 20px;
+  padding-right: 40px;
+  height: 75px;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 0px;
+
+}
+.btn-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
