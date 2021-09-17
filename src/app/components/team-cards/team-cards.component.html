@@ -1,41 +1,73 @@
-<div class="row">
-  <div class="column">
+
+
+<div class="slick-wrapper" data-aos="fade-up">
+  <ngx-slick-carousel class="carousel responsive"
+  #slickModal="slick-carousel"
+  [config]="slideConfig" >
+
+  <div class="column" ngxSlickItem>
     <div class="card">
-      <img src="../../../assets/raime.png" alt="Jane" style="width:100%">
+      <img src="../../../assets/man1.jpg" alt="Jane" class="image-dimensions">
       <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO &amp; Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
+        <h2>Ihtisham Javed</h2>
+        <p class="title">Co Founder</p>
+        <p class="title">Back End Developer</p>
+        <p>A professional having 3 years of industrial experience.</p>
+        <p><a class="button" href="https://www.linkedin.com/in/ihtisham-javed-47a533173/">Contact</a></p>
       </div>
     </div>
   </div>
 
-  <div class="column">
+  <div class="column" ngxSlickItem>
     <div class="card">
-      <img src="../../../assets/vel.jpg" alt="Mike" style="width:100%">
+      <img src="../../../assets/man2.jpg" alt="Mike" class="image-dimensions">
       <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
+        <h2>Hassan Javed</h2>
+        <p class="title">Co Founder</p>
+        <p class="title">Front End Developer</p>
+        <p>A professional having 1 year of industrial experience.</p>
+        <p><a class="button" href="https://www.linkedin.com/in/hassan-javed-2a2537199/">Contact</a></p>
       </div>
     </div>
   </div>
 
-  <div class="column">
+  <div class="column" ngxSlickItem>
     <div class="card">
-      <img src="../../../assets/350z.jpg" alt="John" style="width:100%">
+      <img src="../../../assets/girl2.png" alt="John" class="image-dimensions">
       <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
+        <h2>Mobina Naeem</h2>
+        <p class="title">Co Founder</p>
+        <p class="title">Front End Developer</p>
+        <p>A professional having 3 years of industrial experience.</p>
+        <p><a class="button" href="https://www.linkedin.com/in/mobina-naeem-93b2b115a/">Contact</a></p>
       </div>
     </div>
   </div>
 
+  <div class="column" ngxSlickItem>
+    <div class="card">
+      <img src="../../../assets/woman1.jpg" alt="Mike" class="image-dimensions">
+      <div class="container">
+        <h2>Sidra Bilal</h2>
+        <p class="title">Co Founder</p>
+        <p class="title">Mobile App Developer</p>
+        <p>A professional having 3 years of industrial experience.</p>
+        <p><a class="button" href="https://www.linkedin.com/in/sidrabilal71/">Contact</a></p>
+      </div>
+    </div>
+  </div>
+
+</ngx-slick-carousel>
 </div>
+
+<!-- <div class="slick-wrapper"> -->
+
+  <!-- You can now use your library component in app.component.html -->
+  <!-- <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
+    (breakpoint)="breakpoint($event)">
+    <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+      <img src="https://picsum.photos/536/354?{{slide}}" alt="" width="100%">
+    </div>
+  </ngx-slick-carousel> -->
+
+  <!-- </div> -->

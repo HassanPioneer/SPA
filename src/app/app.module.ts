@@ -15,7 +15,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { ProdCardsComponent } from './components/prod-cards/prod-cards.component';
 import { TeamComponent } from './components/team/team.component';
 import { TeamCardsComponent } from './components/team-cards/team-cards.component';
-
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +34,8 @@ import { TeamCardsComponent } from './components/team-cards/team-cards.component
     BrowserModule,
     AppRoutingModule,
     NgxMaterialTimepickerModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
